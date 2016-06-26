@@ -7,3 +7,7 @@ sqlplus / as sysdba
 
 
 alter user system identified by sistemas; -> modificas la contraseña del usuario system 
+
+
+oracle OCI ES DE TIPO 2
+ORACLE THIN  ES DE TIPO 4  SE USA ESTE 
