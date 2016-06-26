@@ -1,0 +1,9 @@
+sql plus /nolog
+conn system/sistemas
+
+sqlplus system/sistemas
+
+sqlplus / as sysdba
+
+
+alter user system identified by sistemas; -> modificas la contraseña del usuario system 
