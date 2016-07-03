@@ -10,13 +10,14 @@ import pe.egcc.eurekaApp.service.espec.EmpleadoServiceEspeci;
  */
 public class EmpleadoServiceImpl implements EmpleadoServiceEspeci {
     
-    private final String
+    private final String SQLSELECT = "SELECT CHR_EMPLCODIGO,VCH_EMPLPATERNO,"
+            + "VCH_EMPLMATERNO,VCH_EMPLNOMBRE,VCH_EMPLCIUDAD,VCH_EMPLDIRECCION,"
+            + "VCH_EMPLUSUARIO, FROM EMPLEADO ";
+    private final String SQL_INSERT = "";
+    private final String SQL_UPDATE = "";
+    private final String SQL_DELETE = "";
             
             
-            @Override
-            public Empleado validar(String usuario, String clave)
-            {
-                
-            }
+           
     
 }
